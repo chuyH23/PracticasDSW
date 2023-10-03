@@ -1,0 +1,230 @@
+div#cabeza {
+    width: 750px; 
+    padding: 5px;
+    border: red solid 1px; 
+    }
+div#lateral {
+    width: 100px; 
+    padding: 5px;
+    height: 100%; 
+    float: left; 
+    border: blue solid 1px; 
+    }
+div#lateral ul{
+    padding-left: 16px;
+    border: green dotted 1px; 
+    }
+div#lateral ul li {
+    margin-left: 0; 
+    }
+div#contenido {
+    width: 638px; 
+    margin-left: 112px;
+    padding: 5px; 
+    border: green solid 1px; 
+    }
+div#contenido p {
+    text-align: justify; 
+    }
+div#pie {
+    width: 750px; 
+    padding: 5px;           
+    border: red solid 1px; 
+    }
+div.borra-flotacion {
+    clear: both; 
+    }    
+
+
+/* en la parque fija como tal solo se puede ver con la hoja abierta, no es nada responsive y se mininiza la pagina se quita vision */
+
+
+    div#total {
+        width: 762px;
+        margin: auto;
+        border: maroon dashed 1px;
+        }
+    div#cabeza { /* no hace falta el ancho */
+        padding: 5px;
+        border: red solid 1px; 
+        }
+    div#lateral {
+        width: 100px; 
+        padding: 5px;
+        height: 100%; 
+        float: left; 
+        border: blue solid 1px; 
+        }
+    div#lateral ul{
+        padding-left: 16px;
+        border: green dotted 1px; 
+        }
+    div#lateral ul li {
+        margin-left: 0; 
+        }
+    div#contenido { /* no hace falta el ancho */
+        margin-left: 112px;
+        padding: 5px; 
+        border: green solid 1px; 
+        }
+    div#contenido p {
+        text-align: justify; 
+        }
+    div#pie { /* no hace falta el ancho */
+        padding: 5px;           
+        border: red solid 1px; 
+        }
+    div.borra-flotacion {
+        clear: both; 
+        }     
+
+        div#total {                     /* ancho 762px */
+            border: maroon dashed 1px;
+            }
+        div#cabeza {
+            border: red solid 1px;
+            padding: 0.67%;             /* 5px/750px = 0.0067 */
+            }
+        div#lateral {
+            width: 13.12%;              /* 100px/762px = 0.1312 */
+            height: 100%;
+            padding: 0.67%;             /* 5px/750px = 0.0067 */          
+            float: left;
+            border: blue solid 1px;
+            }
+        div#lateral ul{
+            padding-left: 16%;         /* 16px/100px = 0.16 */   
+            border: green dotted 1px;
+            }
+        div#lateral ul li {
+            margin-left: 0;
+            }
+        div#contenido {
+            margin-left: 14.70%;        /* 112px/762px = 0.1470 */
+            padding: 0.67%;             /* 5px/750px = 0.0067 */
+            border: green solid 1px;
+            }
+        div#contenido p {
+            text-align: justify;
+            }
+        div#pie {
+            padding: 0.67%;            /* 5px/750px = 0.0067 */
+            border: red solid 1px;
+            }
+        div.borra-flotacion {
+            clear: both;
+            }    
+
+
+/*en el liquido no hay limite a la hora de hacer chica la pantalla, siemore se va a reajustar todo para que sea visible sin importar el tamaño */
+
+
+
+            body {
+                font-family: Times New Roman;
+                font-size: 1em;          /* 1em equivale a 16px por defecto */
+                }
+            div#total {
+                min-width: 40.625em;             /* 650px/16px = 40.625em */
+                border: maroon dashed 0.0625em;  /* 1px/16px = 0.0625em */
+                }
+            div#cabeza {
+                border: red solid 0.0625em;
+                padding: 0.3125em;               /* 5px/16px = 0.3125em */
+                }
+            div#lateral {
+                width: 6.25em;                   /* 100px/16px = 6.25em */
+                height: 100%;
+                padding: 0.3125em;                       
+                float: left;
+                border: blue solid 0.0625em;
+                }
+            div#lateral ul{
+                padding-left: 1em;               /* 16px/16px = 1em */   
+                border: green dotted 0.0625em;
+                }
+            div#lateral ul li {
+                margin-left: 0;
+                }
+            div#contenido {
+                /* Con el ancho del lateral del ejemplo anterior: 112px/16px = 7em
+                Que es lo mismo que sumar el ancho del lateral más sus dos
+                rellenos y bordes, todo sumado en em's:
+                6.25em + (2 x 0.3125em) + (2 x 0.0625em) = 7em
+                */
+                margin-left: 7em;
+                padding: 0.3125em;
+                border: green solid 0.0625em;
+                }
+            div#contenido p {
+                text-align: justify;
+                }
+            div#pie {
+                padding: 0.3125em;      
+                border: red solid 0.0625em;
+                }
+            div.borra-flotacion {
+                clear: both;
+                }    
+
+
+                body {
+                    font-family: Times New Roman;
+                    font-size: 1em;          /* 1em equivale a 16px por defecto */
+                    }
+                div#total {
+                    min-width: 40.625em;             /* 650px/16px = 40.625em */
+                    border: maroon dashed 0.5em;     /* 8px/16px = 0.5em */
+                    }
+                div#cabeza {
+                    padding: 0.3125em;              /* 5px/16px = 0.3125em */
+                    border: red solid 0.5em;            
+                    }
+                div#lateral {
+                    width: 6.25em;                  /* 100px/16px = 6.25em */
+                    height: 100%;
+                    padding: 0.3125em;   
+                    float: left;
+                    border: blue solid 0.5em;
+                    }
+                div#lateral ul{
+                    padding-left: 1em;              /* 16px/16px = 1em */   
+                    border: green dotted 0.5em;
+                    }
+                div#lateral ul li {
+                    margin-left: 0;
+                    }
+                div#contenido {
+                    /* Con el ancho del lateral del ejemplo anterior: 112px/16px = 7em
+                    Que es lo mismo que sumar el ancho del lateral más sus dos
+                    rellenos y bordes, todo sumado en em's:
+                    6.25em + (2 x 0.3125em) + (2 x 0.5em) = 7.875em
+                    */
+                    margin-left: 7.875em; 
+                    padding: 0.3125em;
+                    border: green solid 0.5em;
+                    }
+                div#contenido p {
+                    text-align: justify;
+                    }
+                div#pie {
+                    padding: 0.3125em;   
+                    border: red solid 0.5em;
+                    }
+                div.borra-flotacion {
+                    clear: both;
+                    }    
+
+                    
+                    div#cabeza {
+                        border: red solid 0.0625em;
+                        padding: 0.3125em;   /* 5px/16px = 0.3125em */
+                        background-image: url(banner.jpg);
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        font: 2em bold 'Arial Black';
+                        color: red;
+                    }
+
+                    /*en este tipo se puede hacer reajustar pero si tiene un limite, en el cual se ajusta y se hace visivle como la liquida pero esta si llega a un punto en el cul
+                    no se puede ajustar mas*/
