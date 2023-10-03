@@ -1,0 +1,106 @@
+#rem{
+height:1rem;
+background-color: yellowgreen;
+}
+#exx{
+   width:100ex;
+   background-color:red;
+ }
+
+#emm{
+    height:1000m;
+    background-color: burlywood;
+}
+#VH{
+    width:10vh;
+    background-color: aqua;
+}
+#VW{
+    width:10vw;
+    background-color: aqua;
+}
+#VM{
+    width:10vmin;
+    height:10vmax ;
+    background-color:grey;
+}
+#colorr { color: rgb(71, 98, 176); }
+
+#color { color: rgb(69, 176, 140); }
+
+#colores { color: #e0d23f; }
+
+
+p::first-line { color: rgb(208,76, 255); }
+p::first-letter { text-transform: uppercase; }
+H1::before { content: "Css - "; }
+p::after { content: "."; }
+p::selection { background:pink; }
+
+tr:nth-child(2n){
+    background-color:rgb(70%,15%,18%);
+}
+
+tr:nth-last-child(2n+1){
+    background-color:rgb(70%,95%,18%);
+}
+td:empty{
+    background-color:rgb(70%,95%,88%);
+}
+
+li:first-child{
+    background-color: blueviolet;
+}
+
+li:last-child{
+    background-color: blueviolet;
+}
+
+p:nth-of-type(2){
+    background-color: silver;
+}
+p:nth-last-child(2){
+    background-color: teal;
+}
+
+a:link {
+    color: red;
+  }
+
+  a:visited {
+    color: yellow;
+  }
+
+  #cambio:hover{
+    color: orange;
+  }
+
+  #cambiow:active{
+    color: khaki;
+  }
+
+  .blue-input:focus {
+    background: yellow;
+    color: blue;
+  }
+
+  :lang(de) > q {
+    quotes: "»" "«" "\2039" "\203A";
+  }
+
+  #pruebasas{
+
+width: 100px;
+height: 150px;
+background-color: skyblue;
+vertical-align:content;
+margin-top: 200px;
+padding-right: 200px;
+float: right;
+  }
+  #jejejejejeje{
+    font-family: fantasy
+  }
+  #jejejejejeje{
+    font-size: xx-large;
+  }
