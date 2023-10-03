@@ -1,0 +1,31 @@
+*{
+    background-color: silver;
+}
+
+h1{
+    text-align: center;
+    margin-top: 50px;
+}
+#tablaa{
+margin-left: 625px;
+margin-top: 100px;
+text-align: center;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+h2{
+    font-family: fantasy;
+    margin-left: 50px
+}
+  a:visited {
+    color: brown
+  }
+  footer{
+    margin-top: 20px;
+  }
+  section{
+    text-align: justify;
+    text-decoration:solid;
+  }
