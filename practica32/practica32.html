@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="stylesheet" href="practica32.css">
+    <title>Juego de la practica 32</title>
+</head>
+<body>
+    <header>Juego de la practica 32</header>
+    <h1>Adivina Adivinanza</h1>
+<!-- Jesus Hernandez Ruiz -->
+    <!-- Pantalla inicial -->
+    <div id="pantalla-inicial">
+        <p>Adivina las mas aadivinanzas</p>
+        <button class="btn" onclick="comenzarJuego()">JUGAR</button><!--aqui al presionar el boton manda a llamar la funcion de comenzar juego-->
+    </div>
+
+    <!-- Pantalla juego -->
+    <div class="pantalla-juego" id="pantalla-juego"><!--aqui es el div que trae el primero -->
+        <img src="imagen32/acertijos.webp" alt="" id="imgMaravilla"><!--aqui se trae la imagen del arreglo-->
+        <div class="opciones">
+            <div class="opcion" id="op0" onclick="comprobarRespuesta(0)"><!--aqui es el div que prueba si esta opcion es correcta o no -->
+                <div class="letra" id="l0">A</div>
+                <div class="nombre" id="n0">OPCION A</div>
+            </div>
+            <div class="opcion" id="op1" onclick="comprobarRespuesta(1)"><!--aqui es el div que prueba si esta opcion es correcta o no -->
+                <div class="letra" id="l1">B</div>
+                <div class="nombre" id="n1">OPCION B</div>
+            </div>
+            <div class="opcion" id="op2" onclick="comprobarRespuesta(2)"><!--aqui es el div que prueba si esta opcion es correcta o no -->
+                <div class="letra" id="l2">C</div>
+                <div class="nombre" id="n2">OPCION C</div>
+            </div>
+            <div class="opcion" id="op3" onclick="comprobarRespuesta(3)"><!--aqui es el div que prueba si esta opcion es correcta o no -->
+                <div class="letra" id="l3">D</div>
+                <div class="nombre" id="n3">OPCION D</div>
+            </div>
+        </div>
+    </div>
+    <!-- Pantalla final -->
+    <div id="pantalla-final"><!--aqui es el div que muestra la pantalla final-->
+        <h2>CORRECTAS: <span id="numCorrectas">3</span></h2>
+        <h2>INCORRECTAS: <span id="numIncorrectas">2</span></h2>
+        <button class="btn" onclick="volverAlInicio()">VOLVER AL INICIO</button>
+    </div>
+
+    <footer>preguntas hechas por mi</footer>
+    
+    <script src="practica32.js"></script><!--aqui se llama el js -->
+</body>
+</html>
